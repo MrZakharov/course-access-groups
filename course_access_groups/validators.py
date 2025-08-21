@@ -6,7 +6,7 @@ Validation helpers for models of course_access_groups.
 
 from django.core.exceptions import ValidationError
 from django.core.validators import validate_email
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 
 def validate_domain(value):
